@@ -22,7 +22,7 @@ spec:
    path: /mysql/mysql_data
   claimRef:
    name: mysql-pvc
-   namespace: default
+   namespace: argocd
 ---
 apiVersion: v1
 kind: PersistentVolumeClaim
